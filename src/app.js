@@ -22,6 +22,9 @@ window.onload = function() {
     const randomName2 = adj[randomIndex2];
     const randomName3 = noun[randomIndex3];
 
+    const randomIndex = randomName1 + randomName2 + randomName3 + ".com";
+    document.getElementById("name").innerHTML = randomIndex;
+
     console.log(randomName1 + randomName2 + randomName3 + ".com");
   }
 };
